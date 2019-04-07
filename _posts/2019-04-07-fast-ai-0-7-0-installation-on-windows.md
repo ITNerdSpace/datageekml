@@ -1,9 +1,11 @@
 ---
 layout: post
-published: false
+published: true
 author: Alexandre Dumont
 last_modified_at: '2019-04-07 14:17 +0200'
-title: Fast.ai 0.7.0 installation on Windows
+title: Fast.AI installation on Windows
+tags:
+  - MachineLearning
 ---
 ## Notes on installing Fast.AI on Windows
 
