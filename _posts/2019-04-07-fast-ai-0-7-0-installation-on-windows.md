@@ -15,6 +15,13 @@ In Anaconda, I have already create a new environment called fastai07. Activate i
 conda activate fastai07
 ```
 
+### Update pip & conda
+
+Before we start, let's make sure we are at the latest version of pip and conda:
+
+  pip install pip -U
+  conda update conda
+
 ### Install PyTorch
 
 Head to [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/), adjust parameters, for example like this:
