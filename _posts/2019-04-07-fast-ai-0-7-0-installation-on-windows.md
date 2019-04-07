@@ -46,6 +46,16 @@ Then activate the new environment with:
 conda activate fastai-cpu
 ```
 
+### Replace symlinks
+
+For those doing the Machine Learning course, replace the linux symlink with a Windows one (this may require an admin command prompt if you don’t have a fully updated version of Windows 10):
+
+```
+cd courses\ml1
+del fastai
+mklink /d fastai ..\..\old\fastai
+```
+
 ### Other stuffs
 
 We can install JupyterLab:
