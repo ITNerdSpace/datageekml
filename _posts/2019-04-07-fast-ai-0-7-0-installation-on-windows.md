@@ -43,8 +43,9 @@ Fast.ai documentation is the right starting point:
 - Some Installation Extras https://docs.fast.ai/install.html
 - **Special instructions for fast.ai 0.7** are here: https://forums.fast.ai/t/fastai-v0-install-issues-thread/24652
 
-What I did is run
+What I did is run this in my fastai07 conda environment:
 
 ```
 pip install fastai==0.7.0
 ```
+
