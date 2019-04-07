@@ -21,7 +21,7 @@ Before we start, let's make sure we are at the latest version of pip and conda:
 
 ```
 pip install pip -U
-conda update conda
+conda update -n base conda
 ```
 
 ### Install PyTorch
