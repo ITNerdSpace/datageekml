@@ -19,8 +19,10 @@ conda activate fastai07
 
 Before we start, let's make sure we are at the latest version of pip and conda:
 
-  pip install pip -U
-  conda update conda
+```
+pip install pip -U
+conda update conda
+```
 
 ### Install PyTorch
 
