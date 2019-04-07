@@ -42,6 +42,7 @@ Fast.ai documentation is the right starting point:
 - On Github https://github.com/fastai/fastai/blob/master/README.md#installation
 - Some Installation Extras https://docs.fast.ai/install.html
 - **Special instructions for fast.ai 0.7** are here: https://forums.fast.ai/t/fastai-v0-install-issues-thread/24652
+- Instalation on Windows: https://forums.fast.ai/t/howto-installation-on-windows/10439
 
 What I did is run this in my fastai07 conda environment:
 
