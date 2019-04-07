@@ -60,8 +60,10 @@ mklink /d fastai ..\..\old\fastai
 
 We can install JupyterLab:
 
-
 ```
 conda install jupyterlab
 ```
 
+### How to run?
+
+From the courses/ml1 folder, launch "jupyter lab" and you can open the notebooks and run them :)
