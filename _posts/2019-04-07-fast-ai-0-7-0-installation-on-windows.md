@@ -27,3 +27,9 @@ Run the command line the page gives us:
 conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
 ```
 
+### Install Fast.ai
+
+Fast.ai documentation is the right starting point:
+- On Github https://github.com/fastai/fastai/blob/master/README.md#installation
+- Some Installation Extras https://docs.fast.ai/install.html
+- **Special instructions for fast.ai 0.7** are here: https://forums.fast.ai/t/fastai-v0-install-issues-thread/24652
