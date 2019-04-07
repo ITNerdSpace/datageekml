@@ -5,6 +5,7 @@ author: Alexandre Dumont
 last_modified_at: '2019-04-07 14:17 +0200'
 title: Fast.AI installation on Windows
 tags:
+  - Automaton
   - MachineLearning
 ---
 ## Notes on installing Fast.AI on Windows
@@ -13,7 +14,7 @@ This are notes I've taken about installing Fast.ai 0.7.0 on Windows in Anaconda.
 
 In Anaconda, I have already create a new environment called fastai07. Activate it, for example in Anaconda Prompt with:
 
-```
+```nosynthax
 conda activate fastai07
 ```
 
@@ -21,7 +22,7 @@ conda activate fastai07
 
 Before we start, let's make sure we are at the latest version of pip and conda:
 
-```
+```nosynthax
 pip install pip -U
 conda update -n base conda
 ```
@@ -36,7 +37,7 @@ Fast.ai documentation is the right starting point:
 
 If you don’t have any NVIDIA GPU, build the fastai-cpu environment using this:
 
-```
+```nosynthax
 git clone https://github.com/fastai/fastai.git
 cd fastai
 conda env create -f environment-cpu.yml
@@ -44,7 +45,7 @@ conda env create -f environment-cpu.yml
 
 Then activate the new environment with:
 
-```
+```nosynthax
 conda activate fastai-cpu
 ```
 
@@ -52,7 +53,7 @@ conda activate fastai-cpu
 
 For those doing the Machine Learning course, replace the linux symlink with a Windows one (this may require an admin command prompt if you don’t have a fully updated version of Windows 10):
 
-```
+```nosynthax
 cd courses\ml1
 del fastai
 mklink /d fastai ..\..\old\fastai
@@ -62,7 +63,7 @@ mklink /d fastai ..\..\old\fastai
 
 We can install JupyterLab:
 
-```
+```nosynthax
 conda install jupyterlab
 ```
 
