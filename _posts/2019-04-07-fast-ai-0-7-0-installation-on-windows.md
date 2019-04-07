@@ -5,18 +5,9 @@ author: Alexandre Dumont
 last_modified_at: '2019-04-07 14:17 +0200'
 title: Fast.AI installation on Windows
 tags:
-  - Automaton
   - MachineLearning
 ---
-## Notes on installing Fast.AI on Windows
-
 This are notes I've taken about installing Fast.ai 0.7.0 on Windows in Anaconda.
-
-In Anaconda, I have already create a new environment called fastai07. Activate it, for example in Anaconda Prompt with:
-
-```nosynthax
-conda activate fastai07
-```
 
 ### Update pip & conda
 
