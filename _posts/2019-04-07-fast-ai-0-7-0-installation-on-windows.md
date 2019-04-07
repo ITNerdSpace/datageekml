@@ -44,12 +44,18 @@ Fast.ai documentation is the right starting point:
 - **Special instructions for fast.ai 0.7** are here: https://forums.fast.ai/t/fastai-v0-install-issues-thread/24652
 - Instalation on Windows: https://forums.fast.ai/t/howto-installation-on-windows/10439
 
+If you don’t have GPU, build the fastai-cpu environment instead:
+
+
 ```
 git clone https://github.com/fastai/fastai.git
-
 cd fastai
-conda env update
+conda env create -f environment-cpu.yml
+```
 
+You then activate that environment with:
 
+```
+conda activate fastai-cpu
 ```
 
