@@ -24,18 +24,6 @@ pip install pip -U
 conda update -n base conda
 ```
 
-### Install PyTorch
-
-Head to [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/), adjust parameters, for example like this:
-
-![2019-04-07 14_19_13-Start Locally _ PyTorch.png]({{site.baseurl}}/images/2019-04-07 14_19_13-Start Locally _ PyTorch.png)
-
-Run the command line the page gives us:
-
-```
-conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
-```
-
 ### Install Fast.ai
 
 Fast.ai documentation is the right starting point:
@@ -57,3 +45,13 @@ Then activate the new environment with:
 ```
 conda activate fastai-cpu
 ```
+
+### Other stuffs
+
+We can install JupyterLab:
+
+
+```
+conda install jupyterlab
+```
+
